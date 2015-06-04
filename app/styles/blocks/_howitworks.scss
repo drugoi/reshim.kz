@@ -1,10 +1,12 @@
 .howitworks {
   @include clearfix;
-  background: #F4F6F7;
+  background: transparent url(../images/howitworks-bkg.png) no-repeat center center;
+  background-size: cover;
 }
 
 .howitworks__inner {
   @include center;
+  padding-top: 40px;
 }
 
 .howitworks__title {

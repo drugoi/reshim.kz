@@ -1,0 +1,8 @@
+node_modules
+dist
+.tmp
+.sass-cache
+bower_components
+admin
+Thumbs.db
+.DS_Store

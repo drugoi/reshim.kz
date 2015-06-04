@@ -19,16 +19,19 @@
 
 .faq__row-col {
   float: left;
-  width: 50%;
+  width: 450px;
+  margin-right: 34px;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
 }
 
 .faq-col__text {
   margin-bottom: 45px;
-  margin-right: 35px;
 
   &:last-of-type {
     margin-bottom: 0;
-    margin-right: 0;
   }
 }
 

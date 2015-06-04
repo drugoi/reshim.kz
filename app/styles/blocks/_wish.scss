@@ -17,13 +17,21 @@
 .wish__number {
   display: block;
   margin: 40px auto 20px;
-  width: 215px;
+  width: 495px;
   color: rgb(32, 149, 252);
   text-align: center;
   text-shadow: 1.827px 0.813px 0px rgba(24, 100, 167, 0.8);
   font-weight: bold;
   font-size: 74px;
   font-family: $ff-ptsansnarrow;
+  
+  & > a {
+    color: rgb(32, 149, 252);
+    
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
 
 .wish__instruction {

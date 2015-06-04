@@ -5,6 +5,8 @@ $(document).ready(function() {
     $slider.bxSlider({
 		  slideMargin: 44,
 		  slideWidth: '290px',
+		  minSlides: 3,
+		  maxSlides: 3,
 		  auto: true,
 		  randomStart: true,
 		  controls: false,

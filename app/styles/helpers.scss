@@ -1,0 +1,26 @@
+@mixin opacity($opacity) {
+  $opacity-ie: $opacity * 100;
+  opacity: $opacity;
+  filter: alpha(opacity = $opacity-ie);
+}
+
+@mixin clearfix {
+  *zoom: 1;
+
+  &:before,
+  &:after {
+    display: table;
+    content: " ";
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+@mixin center {
+  @include clearfix;
+  margin-right: auto;
+  margin-left: auto;
+  width: $main-width;
+}

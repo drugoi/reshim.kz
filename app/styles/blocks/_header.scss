@@ -1,1 +1,18 @@
 /* Block: header*/
+header {
+  border-bottom: 1px solid #ECECEC;
+  background: rgba($c-white, 0.5);
+}
+
+.header__inner {
+  @include center();
+  height: 65px;
+}
+
+.header__logo {
+  background: transparent url(../images/logo.png) no-repeat center center;
+  float: left;
+  width: 169px;
+  height: 40px;
+  margin-top: 12.5px;
+}

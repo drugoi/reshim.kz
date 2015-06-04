@@ -6,3 +6,5 @@ bower_components
 admin
 Thumbs.db
 .DS_Store
+app/css/
+app/js/

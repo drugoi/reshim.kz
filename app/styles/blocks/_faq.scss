@@ -1,1 +1,49 @@
 /* Block: faq*/
+
+.faq {
+  @include center;
+  margin-bottom: 40px;
+}
+
+.faq__row {
+  @include clearfix;
+}
+
+.faq__row-title {
+  margin-bottom: 40px;
+  font-family: $ff-ptsansnarrow;
+  font-size: 36px;
+  font-weight: bold;
+  color: $c-gray;
+}
+
+.faq__row-col {
+  float: left;
+  width: 50%;
+}
+
+.faq-col__text {
+  margin-bottom: 45px;
+  margin-right: 35px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+}
+
+.faq-text__question {
+  display: block;
+  margin-bottom: 20px;
+  font-family: $ff-ptsansnarrow;
+  font-size: 20px;
+  color: $c-orange;
+}
+
+.faq-text__answer {
+  display: block;
+  font-family: $ff-ptsans;
+  font-size: 16px;
+  line-height: 32px;
+  color: $c-gray;
+}

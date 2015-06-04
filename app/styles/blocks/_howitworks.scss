@@ -6,7 +6,8 @@
 
 .howitworks__inner {
   @include center;
-  padding-top: 40px;
+  padding-top: 80px;
+  padding-bottom: 190px;
 }
 
 .howitworks__title {
@@ -68,8 +69,8 @@
 .howitworks__magic-slider {
   @include clearfix;
   position: relative;
-  padding-top: 80px;
   margin-bottom: 80px;
+  padding-top: 80px;
   
   .bx-wrapper {
     border: none;

@@ -1,10 +1,13 @@
 .howitworks {
   @include clearfix;
-  background: #F4F6F7;
+  background: transparent url(../images/howitworks-bkg.png) no-repeat center center;
+  background-size: cover;
 }
 
 .howitworks__inner {
   @include center;
+  padding-top: 80px;
+  padding-bottom: 190px;
 }
 
 .howitworks__title {
@@ -66,8 +69,8 @@
 .howitworks__magic-slider {
   @include clearfix;
   position: relative;
-  padding-top: 80px;
   margin-bottom: 80px;
+  padding-top: 80px;
   
   .bx-wrapper {
     border: none;

@@ -10,9 +10,41 @@ header {
 }
 
 .header__logo {
-  background: transparent url(../images/logo.png) no-repeat center center;
   float: left;
+  margin-top: 12.5px;
   width: 169px;
   height: 40px;
-  margin-top: 12.5px;
+  background: transparent url(../images/logo.png) no-repeat center center;
+}
+
+.header__menu {
+  float: right; 
+}
+
+.header__menu-link {
+  float: left;
+  margin-right: 40px;
+  color: $c-verydark;
+  font-size: 16px;
+  line-height: 65px;
+}
+
+.header__button {
+  margin-top: 17px;
+  width: 156px;
+  height: 31px;
+  outline: none;
+  border: 1px solid $c-orange;
+  border-radius: 5px;
+  background: $c-white;
+  color: $c-orange;
+  font-size: 16px;
+  font-family: $ff-ptsans;
+  cursor: pointer;
+  transition: all 200ms ease-in;
+  
+  &:hover {
+    background: $c-orange;
+    color: $c-white;
+  }
 }

@@ -2,7 +2,7 @@ module.exports = {
   dev: {
     options: {
       base: 'app',
-      port: 8045,
+      port: 8099,
       livereload: true
     }
   }

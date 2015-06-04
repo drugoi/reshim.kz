@@ -1,1 +1,110 @@
 /* Block: footer*/
+footer {
+  background: url(../images/footer.png);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.footer-inner {
+  @include center;
+}
+
+.contact {
+  margin: 0 auto 60px auto;
+  width: 331px;
+  height: 681px;
+  background: url("../images/form__cover.png");
+  overflow: hidden;
+}
+
+.contact__form {
+  margin: 81px 20px;
+  width: 291px;
+  height: 518px;
+  padding: 30px;
+  background: $c-white;
+}
+
+.contact__form__logo {
+  margin: 0 auto 30px auto;
+  width: 84px;
+  height: 88px;
+  display: block;
+}
+
+.contact__form__label {
+  margin-bottom: 20px;
+  display: block;
+  text-align: center;
+  font-size: 19px;
+  color: $c-brown;
+  text-transform: uppercase;
+  font-family: $ff-ptsans;
+}
+
+.contact__form__input {
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 13px 15px;
+  color: #d5d5d5;
+  font-family: $ff-ptsans;
+  font-size: 14px;
+  border: 1px solid #d5d5d5;
+  outline: none;
+}
+
+.contact__form__text {
+  margin-bottom: 30px;
+  width: 100%;
+  height: 137px;
+  padding: 13px 15px;
+  color: #d5d5d5;
+  font-family: $ff-ptsans;
+  font-size: 14px;
+  border: 1px solid #d5d5d5;
+  outline: none;
+}
+
+.contact__form__button {
+  width: 227px;
+  height: 46px;
+  border-radius: 5px;
+  background-color: $c-brown;
+  border: none;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-family: $ff-ptsans;
+  color: $c-white;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 2px 0px 0px rgba(148, 52, 19, 1);
+}
+
+.footer__menu {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 0;
+}
+
+.footer__menu-link {
+  font-family: $ff-ptsans;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 17px;
+  color: rgba(255, 225, 225, 0.2);
+  line-height: 36px;
+
+  &:after {
+    content: "|";
+    font-size: 16px;
+    display: inline-block;
+    margin: 0 4px;
+    vertical-align: top;
+    color: rgba(255, 225, 225, 0.2);
+  }
+
+  &:last-of-type {
+    &:after {
+      content: '';
+    }
+  }
+}

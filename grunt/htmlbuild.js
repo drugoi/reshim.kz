@@ -9,7 +9,8 @@ module.exports = {
 				layout: {
 					header: 'app/templates/header.html',
 					footer: 'app/templates/footer.html',
-          wish: 'app/templates/wish.html'
+          wish: 'app/templates/wish.html',
+          'howitworks': 'app/templates/howitworks.html'
 				}
 			}
 		}

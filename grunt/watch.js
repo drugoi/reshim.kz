@@ -7,7 +7,7 @@ module.exports = {
 
   scripts: {
     files: [
-      'app/scripts/*.js'
+      'app/scripts/**/*.js'
     ],
     tasks: [
       'jshint',
@@ -27,7 +27,11 @@ module.exports = {
   
   html: {
     files: [
-      'app/templates/**/*.html'
+      'app/templates/**/*.html',
+      'app/pages/**/*.html'
+    ],
+    tasks: [
+      'htmlbuild:dev'
     ]
   }
 };

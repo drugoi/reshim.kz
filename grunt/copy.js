@@ -1,9 +1,9 @@
 module.exports = {
-  all: {
+  prod: {
     files: [{
       expand: true,
       cwd: 'app/',
-      src: ['images/**/*.{png,jpg,gif}'],
+      src: ['fonts/**', 'bower/**'],
       dest: 'dist/'
     }]
   }

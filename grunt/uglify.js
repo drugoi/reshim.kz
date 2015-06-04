@@ -1,4 +1,14 @@
-var scripts = ['app/bower/jquery/dist/jquery.min.js', 'app/bower/bxslider-4/jquery.bxslider.min.js', 'app/scripts/**/*.js'];
+var scripts = [
+  'app/bower/jquery/dist/jquery.min.js',
+  'app/bower/gsap/src/minified/TweenMax.min.js',
+  'app/bower/social-likes/social-likes.min.js',
+  'app/bower/bxslider-4/dist/jquery.bxslider.min.js',
+  'app/bower/bxslider-4/dist/vendor/jquery.fitvids.js',
+  'app/bower/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js',
+  'app/bower/instafeed.js/instafeed.min.js',
+  'app/bower/bowser/bowser.min.js',
+  'app/scripts/**/*.js'
+];
 
 module.exports = {
   options: {

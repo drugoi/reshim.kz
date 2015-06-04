@@ -18,8 +18,12 @@ module.exports = {
 
   // Tasks for Production
   prodPrepare: [
+    'clean:prod',
+    'copy:prod',
+    'sass:prod'
+  ],
+  prodPreCompile: [
     'jshint',
-    'sass:prod',
     'csso:prod'
   ],
   prodCompile: [

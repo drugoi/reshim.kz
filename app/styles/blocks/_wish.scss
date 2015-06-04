@@ -1,0 +1,50 @@
+.wish {
+  @include center;
+}
+
+.wish__logo {
+  display: block;
+  margin: 50px auto 45px;
+  width: 202px;
+  height: 94px;
+  background: transparent url(../images/logo_big.png) no-repeat center center;
+}
+
+.wish__title {
+  text-align: center;
+}
+
+.wish__number {
+  display: block;
+  margin: 40px auto 20px;
+  width: 215px;
+  color: rgb(32, 149, 252);
+  text-align: center;
+  text-shadow: 1.827px 0.813px 0px rgba(24, 100, 167, 0.8);
+  font-weight: bold;
+  font-size: 74px;
+  font-family: $ff-ptsansnarrow;
+}
+
+.wish__instruction {
+  color: $c-verydark;
+  text-align: center;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.wish__button {
+  margin: 40px auto;
+  display: block;
+  width: 340px;
+  height: 67px;
+  border: none;
+  outline: none;
+  border-radius: $border-radius;
+  background-color: #B74017;
+  color: $c-white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-family: $ff-ptsans; 
+}

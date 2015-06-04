@@ -35,7 +35,7 @@ header {
   height: 31px;
   outline: none;
   border: 1px solid $c-orange;
-  border-radius: 5px;
+  border-radius: $border-radius;
   background: $c-white;
   color: $c-orange;
   font-size: 16px;

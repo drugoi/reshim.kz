@@ -5,3 +5,10 @@
 body {
   font-family: $ff-ptsans;
 }
+
+h2 {
+  font-size: 32px;
+  font-family: $ff-ptsansnarrow;
+  color: $c-verydark;
+  font-weight: bold;
+}

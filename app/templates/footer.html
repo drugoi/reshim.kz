@@ -1,13 +1,14 @@
-<footer>
+<footer id="makeawish">
 	<div class="footer-inner">
 		<div class="contact">
 
 			<form action="" class="contact__form">
-			<img src="../images/logo_phone.png" alt="" class="contact__form-logo">
-			<label for="name" class="contact__form-label">загадайте желание</label>
-				<input type="text" id="name" class="contact__form-input" placeholder="Ваш номер">
-				<textarea name="" placeholder="Я хочу..." id="" class="contact__form-text"></textarea>
-				<input type="button" value="Отправить" class="contact__form-button">
+			  <img src="../images/logo_phone.png" alt="" class="contact__form-logo">
+			  <label for="phone" class="contact__form-label">загадайте желание</label>
+        <input type="text" id="phone" name="phone" class="contact__form-input" placeholder="Ваш номер" required>
+        <textarea name="wish" placeholder="Я хочу..." class="contact__form-text" required></textarea>
+        <button class="contact__form-button" type="submit">Отправить</button>
+        <p class="contact__form-success">Ваше желание отправлено</p>
 			</form>
 		</div>
 		<menu class="footer__menu">

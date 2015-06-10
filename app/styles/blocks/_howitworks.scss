@@ -1,7 +1,7 @@
 .howitworks {
   @include clearfix;
   background: transparent url(../images/howitworks-bkg.png) no-repeat center center;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 
 .howitworks__inner {
@@ -42,6 +42,10 @@
   
   &._gift {
     background-image: url(../images/icons/icon-gift.png);
+  }
+  
+  &._easy {
+    background-image: url(../images/icons/icon-easy.png);
   }
 }
 

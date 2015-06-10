@@ -48,7 +48,7 @@ $(document).ready(function() {
 
     var $form = $('.contact__form');
     if ($form.length) {
-        $form.find('.contact__form-input').mask('+7 (999) 999 99 99', {
+        $form.find('.contact__form-input[type="tel"]').mask('+7 (999) 999 99 99', {
             placeholder: ' '
         });
         $form.on('submit', function(event) {

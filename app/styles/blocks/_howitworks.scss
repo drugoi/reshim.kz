@@ -94,3 +94,29 @@
   position: relative;
   z-index: 1;
 }
+
+.howitworks__magic-slider__control {
+  position: absolute;
+  top: 275px;
+  z-index: 10;
+  display: block;
+  width: 88px;
+  height: 88px;
+  background: transparent no-repeat center center;
+  
+  &._prev {
+    left: -108px;
+    background-image: url(../images/slider__left.png);
+  }
+  
+  &._next {
+    right: -108px;
+    background-image: url(../images/slider__right.png);
+  }
+  
+  & > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}

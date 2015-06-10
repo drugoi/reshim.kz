@@ -50,3 +50,11 @@
   font-family: $ff-ptsans;
   line-height: 32px;
 }
+
+.faq__smile {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  background: transparent url(../images/smile.png) no-repeat center center;
+  background-size: cover; 
+}
